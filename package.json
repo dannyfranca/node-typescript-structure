@@ -37,7 +37,5 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.5"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {}
 }
