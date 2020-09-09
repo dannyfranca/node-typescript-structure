@@ -2,7 +2,12 @@
   "compilerOptions": {
     "target": "es2017",                          
     "module": "commonjs",                     
-    "lib": ["es6"],                             
+    "lib": [
+      "es6",
+      "esnext.asynciterable",
+      "es2020.promise",
+      "dom"
+    ],                             
     "allowJs": true,                       
     "outDir": "./dist",                        
     "rootDir": "./src",                       
@@ -19,10 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers/*": ["./src/controllers/*"],
-      "@models/*": ["./src/models/*"],
-      "@views/*": ["./src/views/*"],
-      "@config/*": ["./src/config/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
